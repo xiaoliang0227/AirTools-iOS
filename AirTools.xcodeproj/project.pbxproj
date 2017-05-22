@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC7301101ED2E4F60011847F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC73010F1ED2E4F60011847F /* main.m */; };
+		FC7301131ED2E4F60011847F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7301121ED2E4F60011847F /* AppDelegate.m */; };
+		FC7301161ED2E4F70011847F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7301151ED2E4F70011847F /* FirstViewController.m */; };
+		FC7301191ED2E4F70011847F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7301181ED2E4F70011847F /* SecondViewController.m */; };
+		FC73011C1ED2E4F70011847F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC73011A1ED2E4F70011847F /* Main.storyboard */; };
+		FC73011E1ED2E4F70011847F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC73011D1ED2E4F70011847F /* Assets.xcassets */; };
+		FC7301211ED2E4F70011847F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC73011F1ED2E4F70011847F /* LaunchScreen.storyboard */; };
+		FC73012C1ED2E4F70011847F /* AirToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC73012B1ED2E4F70011847F /* AirToolsTests.m */; };
+		FC7301371ED2E4F70011847F /* AirToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7301361ED2E4F70011847F /* AirToolsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC7301281ED2E4F70011847F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7301031ED2E4F60011847F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC73010A1ED2E4F60011847F;
+			remoteInfo = AirTools;
+		};
+		FC7301331ED2E4F70011847F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC7301031ED2E4F60011847F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC73010A1ED2E4F60011847F;
+			remoteInfo = AirTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC73010B1ED2E4F60011847F /* AirTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC73010F1ED2E4F60011847F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC7301111ED2E4F60011847F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC7301121ED2E4F60011847F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC7301141ED2E4F60011847F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FC7301151ED2E4F70011847F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FC7301171ED2E4F70011847F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FC7301181ED2E4F70011847F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FC73011B1ED2E4F70011847F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC73011D1ED2E4F70011847F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC7301201ED2E4F70011847F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC7301221ED2E4F70011847F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7301271ED2E4F70011847F /* AirToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC73012B1ED2E4F70011847F /* AirToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirToolsTests.m; sourceTree = "<group>"; };
+		FC73012D1ED2E4F70011847F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7301321ED2E4F70011847F /* AirToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7301361ED2E4F70011847F /* AirToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirToolsUITests.m; sourceTree = "<group>"; };
+		FC7301381ED2E4F70011847F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7301081ED2E4F60011847F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7301241ED2E4F70011847F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC73012F1ED2E4F70011847F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC7301021ED2E4F60011847F = {
+			isa = PBXGroup;
+			children = (
+				FC73010D1ED2E4F60011847F /* AirTools */,
+				FC73012A1ED2E4F70011847F /* AirToolsTests */,
+				FC7301351ED2E4F70011847F /* AirToolsUITests */,
+				FC73010C1ED2E4F60011847F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC73010C1ED2E4F60011847F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC73010B1ED2E4F60011847F /* AirTools.app */,
+				FC7301271ED2E4F70011847F /* AirToolsTests.xctest */,
+				FC7301321ED2E4F70011847F /* AirToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC73010D1ED2E4F60011847F /* AirTools */ = {
+			isa = PBXGroup;
+			children = (
+				FC7301111ED2E4F60011847F /* AppDelegate.h */,
+				FC7301121ED2E4F60011847F /* AppDelegate.m */,
+				FC7301141ED2E4F60011847F /* FirstViewController.h */,
+				FC7301151ED2E4F70011847F /* FirstViewController.m */,
+				FC7301171ED2E4F70011847F /* SecondViewController.h */,
+				FC7301181ED2E4F70011847F /* SecondViewController.m */,
+				FC73011A1ED2E4F70011847F /* Main.storyboard */,
+				FC73011D1ED2E4F70011847F /* Assets.xcassets */,
+				FC73011F1ED2E4F70011847F /* LaunchScreen.storyboard */,
+				FC7301221ED2E4F70011847F /* Info.plist */,
+				FC73010E1ED2E4F60011847F /* Supporting Files */,
+			);
+			path = AirTools;
+			sourceTree = "<group>";
+		};
+		FC73010E1ED2E4F60011847F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC73010F1ED2E4F60011847F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC73012A1ED2E4F70011847F /* AirToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC73012B1ED2E4F70011847F /* AirToolsTests.m */,
+				FC73012D1ED2E4F70011847F /* Info.plist */,
+			);
+			path = AirToolsTests;
+			sourceTree = "<group>";
+		};
+		FC7301351ED2E4F70011847F /* AirToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7301361ED2E4F70011847F /* AirToolsUITests.m */,
+				FC7301381ED2E4F70011847F /* Info.plist */,
+			);
+			path = AirToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC73010A1ED2E4F60011847F /* AirTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC73013B1ED2E4F70011847F /* Build configuration list for PBXNativeTarget "AirTools" */;
+			buildPhases = (
+				FC7301071ED2E4F60011847F /* Sources */,
+				FC7301081ED2E4F60011847F /* Frameworks */,
+				FC7301091ED2E4F60011847F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirTools;
+			productName = AirTools;
+			productReference = FC73010B1ED2E4F60011847F /* AirTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC7301261ED2E4F70011847F /* AirToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC73013E1ED2E4F70011847F /* Build configuration list for PBXNativeTarget "AirToolsTests" */;
+			buildPhases = (
+				FC7301231ED2E4F70011847F /* Sources */,
+				FC7301241ED2E4F70011847F /* Frameworks */,
+				FC7301251ED2E4F70011847F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7301291ED2E4F70011847F /* PBXTargetDependency */,
+			);
+			name = AirToolsTests;
+			productName = AirToolsTests;
+			productReference = FC7301271ED2E4F70011847F /* AirToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC7301311ED2E4F70011847F /* AirToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7301411ED2E4F70011847F /* Build configuration list for PBXNativeTarget "AirToolsUITests" */;
+			buildPhases = (
+				FC73012E1ED2E4F70011847F /* Sources */,
+				FC73012F1ED2E4F70011847F /* Frameworks */,
+				FC7301301ED2E4F70011847F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC7301341ED2E4F70011847F /* PBXTargetDependency */,
+			);
+			name = AirToolsUITests;
+			productName = AirToolsUITests;
+			productReference = FC7301321ED2E4F70011847F /* AirToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7301031ED2E4F60011847F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "赵永亮";
+				TargetAttributes = {
+					FC73010A1ED2E4F60011847F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X886QLTC4A;
+						ProvisioningStyle = Automatic;
+					};
+					FC7301261ED2E4F70011847F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X886QLTC4A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC73010A1ED2E4F60011847F;
+					};
+					FC7301311ED2E4F70011847F = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X886QLTC4A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC73010A1ED2E4F60011847F;
+					};
+				};
+			};
+			buildConfigurationList = FC7301061ED2E4F60011847F /* Build configuration list for PBXProject "AirTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC7301021ED2E4F60011847F;
+			productRefGroup = FC73010C1ED2E4F60011847F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC73010A1ED2E4F60011847F /* AirTools */,
+				FC7301261ED2E4F70011847F /* AirToolsTests */,
+				FC7301311ED2E4F70011847F /* AirToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC7301091ED2E4F60011847F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7301211ED2E4F70011847F /* LaunchScreen.storyboard in Resources */,
+				FC73011E1ED2E4F70011847F /* Assets.xcassets in Resources */,
+				FC73011C1ED2E4F70011847F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7301251ED2E4F70011847F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7301301ED2E4F70011847F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7301071ED2E4F60011847F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7301191ED2E4F70011847F /* SecondViewController.m in Sources */,
+				FC7301131ED2E4F60011847F /* AppDelegate.m in Sources */,
+				FC7301161ED2E4F70011847F /* FirstViewController.m in Sources */,
+				FC7301101ED2E4F60011847F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7301231ED2E4F70011847F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC73012C1ED2E4F70011847F /* AirToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC73012E1ED2E4F70011847F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7301371ED2E4F70011847F /* AirToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC7301291ED2E4F70011847F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC73010A1ED2E4F60011847F /* AirTools */;
+			targetProxy = FC7301281ED2E4F70011847F /* PBXContainerItemProxy */;
+		};
+		FC7301341ED2E4F70011847F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC73010A1ED2E4F60011847F /* AirTools */;
+			targetProxy = FC7301331ED2E4F70011847F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC73011A1ED2E4F70011847F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC73011B1ED2E4F70011847F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC73011F1ED2E4F70011847F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7301201ED2E4F70011847F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7301391ED2E4F70011847F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC73013A1ED2E4F70011847F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC73013C1ED2E4F70011847F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X886QLTC4A;
+				INFOPLIST_FILE = AirTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sangotek.AirTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC73013D1ED2E4F70011847F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X886QLTC4A;
+				INFOPLIST_FILE = AirTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sangotek.AirTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC73013F1ED2E4F70011847F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X886QLTC4A;
+				INFOPLIST_FILE = AirToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sangotek.AirToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTools.app/AirTools";
+			};
+			name = Debug;
+		};
+		FC7301401ED2E4F70011847F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X886QLTC4A;
+				INFOPLIST_FILE = AirToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sangotek.AirToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTools.app/AirTools";
+			};
+			name = Release;
+		};
+		FC7301421ED2E4F70011847F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X886QLTC4A;
+				INFOPLIST_FILE = AirToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sangotek.AirToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirTools;
+			};
+			name = Debug;
+		};
+		FC7301431ED2E4F70011847F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X886QLTC4A;
+				INFOPLIST_FILE = AirToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sangotek.AirToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AirTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7301061ED2E4F60011847F /* Build configuration list for PBXProject "AirTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7301391ED2E4F70011847F /* Debug */,
+				FC73013A1ED2E4F70011847F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC73013B1ED2E4F70011847F /* Build configuration list for PBXNativeTarget "AirTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC73013C1ED2E4F70011847F /* Debug */,
+				FC73013D1ED2E4F70011847F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC73013E1ED2E4F70011847F /* Build configuration list for PBXNativeTarget "AirToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC73013F1ED2E4F70011847F /* Debug */,
+				FC7301401ED2E4F70011847F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC7301411ED2E4F70011847F /* Build configuration list for PBXNativeTarget "AirToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7301421ED2E4F70011847F /* Debug */,
+				FC7301431ED2E4F70011847F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7301031ED2E4F60011847F /* Project object */;
+}
