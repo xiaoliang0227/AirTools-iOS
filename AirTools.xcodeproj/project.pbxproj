@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC5217001ED424CA007C6AB7 /* air_news.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5216FF1ED424CA007C6AB7 /* air_news.png */; };
+		FC5217021ED424E6007C6AB7 /* chip_ticket.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5217011ED424E6007C6AB7 /* chip_ticket.png */; };
+		FC5217041ED4253B007C6AB7 /* ctrip_ticket.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5217031ED4253B007C6AB7 /* ctrip_ticket.png */; };
 		FC7301101ED2E4F60011847F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC73010F1ED2E4F60011847F /* main.m */; };
 		FC7301131ED2E4F60011847F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7301121ED2E4F60011847F /* AppDelegate.m */; };
 		FC7301161ED2E4F70011847F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7301151ED2E4F70011847F /* FirstViewController.m */; };
@@ -16,6 +19,7 @@
 		FC7301211ED2E4F70011847F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC73011F1ED2E4F70011847F /* LaunchScreen.storyboard */; };
 		FC73012C1ED2E4F70011847F /* AirToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC73012B1ED2E4F70011847F /* AirToolsTests.m */; };
 		FC7301371ED2E4F70011847F /* AirToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7301361ED2E4F70011847F /* AirToolsUITests.m */; };
+		FC7301471ED2E6C20011847F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7301461ED2E6C20011847F /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC5216FF1ED424CA007C6AB7 /* air_news.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = air_news.png; path = ../../../../Downloads/air_news.png; sourceTree = "<group>"; };
+		FC5217011ED424E6007C6AB7 /* chip_ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chip_ticket.png; path = ../../../../Downloads/chip_ticket.png; sourceTree = "<group>"; };
+		FC5217031ED4253B007C6AB7 /* ctrip_ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ctrip_ticket.png; path = ../../../../Downloads/ctrip_ticket.png; sourceTree = "<group>"; };
 		FC73010B1ED2E4F60011847F /* AirTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC73010F1ED2E4F60011847F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC7301111ED2E4F60011847F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +61,8 @@
 		FC7301321ED2E4F70011847F /* AirToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7301361ED2E4F70011847F /* AirToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirToolsUITests.m; sourceTree = "<group>"; };
 		FC7301381ED2E4F70011847F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7301451ED2E6C20011847F /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FC7301461ED2E6C20011847F /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,11 @@
 		FC73010D1ED2E4F60011847F /* AirTools */ = {
 			isa = PBXGroup;
 			children = (
+				FC5217031ED4253B007C6AB7 /* ctrip_ticket.png */,
+				FC5216FF1ED424CA007C6AB7 /* air_news.png */,
+				FC5217011ED424E6007C6AB7 /* chip_ticket.png */,
+				FC7301451ED2E6C20011847F /* ThirdViewController.h */,
+				FC7301461ED2E6C20011847F /* ThirdViewController.m */,
 				FC7301111ED2E4F60011847F /* AppDelegate.h */,
 				FC7301121ED2E4F60011847F /* AppDelegate.m */,
 				FC7301141ED2E4F60011847F /* FirstViewController.h */,
@@ -254,9 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5217041ED4253B007C6AB7 /* ctrip_ticket.png in Resources */,
 				FC7301211ED2E4F70011847F /* LaunchScreen.storyboard in Resources */,
 				FC73011E1ED2E4F70011847F /* Assets.xcassets in Resources */,
 				FC73011C1ED2E4F70011847F /* Main.storyboard in Resources */,
+				FC5217001ED424CA007C6AB7 /* air_news.png in Resources */,
+				FC5217021ED424E6007C6AB7 /* chip_ticket.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7301191ED2E4F70011847F /* SecondViewController.m in Sources */,
+				FC7301471ED2E6C20011847F /* ThirdViewController.m in Sources */,
 				FC7301131ED2E4F60011847F /* AppDelegate.m in Sources */,
 				FC7301161ED2E4F70011847F /* FirstViewController.m in Sources */,
 				FC7301101ED2E4F60011847F /* main.m in Sources */,
@@ -435,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = X886QLTC4A;
 				INFOPLIST_FILE = AirTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -447,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = X886QLTC4A;
 				INFOPLIST_FILE = AirTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -524,6 +544,7 @@
 				FC73013D1ED2E4F70011847F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC73013E1ED2E4F70011847F /* Build configuration list for PBXNativeTarget "AirToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +553,7 @@
 				FC7301401ED2E4F70011847F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC7301411ED2E4F70011847F /* Build configuration list for PBXNativeTarget "AirToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +562,7 @@
 				FC7301431ED2E4F70011847F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

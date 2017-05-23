@@ -7,8 +7,12 @@
 //
 
 #import "SecondViewController.h"
+#import <WebKit/WKWebView.h>
+
+#define URL_CTRIP_AIR_TICKET @"http://m.ctrip.com/html5/flight/matrix/matrix.html?fromswift=C"
 
 @interface SecondViewController ()
+@property (weak, nonatomic) IBOutlet WKWebView *content;
 
 @end
 
@@ -16,14 +20,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void) viewDidAppear:(BOOL)animated {
+    [_content loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:URL_CTRIP_AIR_TICKET]]];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

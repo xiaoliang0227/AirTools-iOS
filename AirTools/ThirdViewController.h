@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  ThirdViewController.h
 //  AirTools
 //
 //  Created by 赵永亮 on 2017/5/22.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController<UIWebViewDelegate>
-
+@interface ThirdViewController : UIViewController<UIWebViewDelegate>
 
 @end
-
+ 
